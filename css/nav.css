@@ -1,0 +1,142 @@
+/* css/nav.css                                                     */
+/*                                                                          */
+/* +----------------------------------------------------------------------+ */
+/* | XML Final Project      http://xmlfinal.jasonantman.com               | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2009 Jason Antman.                                     | */
+/* |                                                                      | */
+/* | This program is free software; you can redistribute it and/or modify | */
+/* | it under the terms of the GNU General Public License as published by | */
+/* | the Free Software Foundation; either version 3 of the License, or    | */
+/* | (at your option) any later version.                                  | */
+/* |                                                                      | */
+/* | This program is distributed in the hope that it will be useful,      | */
+/* | but WITHOUT ANY WARRANTY; without even the implied warranty of       | */
+/* | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        | */
+/* | GNU General Public License for more details.                         | */
+/* |                                                                      | */
+/* | You should have received a copy of the GNU General Public License    | */
+/* | along with this program; if not, write to:                           | */
+/* |                                                                      | */
+/* | Free Software Foundation, Inc.                                       | */
+/* | 59 Temple Place - Suite 330                                          | */
+/* | Boston, MA 02111-1307, USA.                                          | */
+/* +----------------------------------------------------------------------+ */
+/* |Please use the above URL for bug reports and feature/support requests.| */
+/* +----------------------------------------------------------------------+ */
+/* | Authors: Jason Antman <jason@jasonantman.com>                        | */
+/* +----------------------------------------------------------------------+ */
+/* | $LastChangedRevision:: 8                                           $ | */
+/* | $HeadURL:: http://svn.jasonantman.com/xmlfinal/css/nav.css         $ | */
+/* +----------------------------------------------------------------------+ */
+
+
+/* navigation */
+	
+#nav {
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-left: 2em;
+	list-style: none;
+	background: #333;
+	border-top: 0px;
+	border-bottom: 3px solid #999;
+}
+	
+.nav li { 
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#activeNav a
+{
+	color: #4E4E4E !important;
+	text-decoration: underline !important;
+	background: #eee !important;
+}
+
+.nav a {
+	float: left;
+	display: block;
+	padding: 6px 30px 6px 5px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 90%;
+	color: #666;
+	background: #ccc;
+	-moz-border-radius: 10px 10px 0 0;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+	
+.nav a:hover {
+	color: #000;
+	background: #ddd !important;
+}
+	
+/* more */
+	
+ul#more {
+	clear: left;
+	margin-top: 60px;
+}
+
+/* LOWER NAV */
+
+#navLower {
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+	list-style: none;
+	background: #DEDEDE;
+	border-bottom: 1px solid #999;
+}
+	
+.navLower li
+{ 
+	float: left;
+	margin: 0px 4px 0px 4px;
+	padding: 0;
+}
+
+#activeNavLower a
+{
+	color: #4E4E4E !important;
+	text-decoration: underline !important;
+	background: white !important;
+}
+
+.navLower a {
+	float: left;
+	display: block;
+	padding: 6px 30px 6px 5px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 90%;
+	color: #666;
+	background: #DEDEDE;
+/*	border-left: 1px solid black; */
+/*	border-right: 1px solid black; */
+	margin: 0px 4px 0px 4px;
+}
+	
+.navLower a {
+	padding-left: 20px;
+}
+	
+.navLower a:hover {
+	color: red;
+	background: #bbb !important;
+}
+
+/* more */
+	
+ul#more {
+	clear: left;
+	margin-top: 60px;
+}

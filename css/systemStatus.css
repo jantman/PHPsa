@@ -1,0 +1,134 @@
+/* css/systemStatus.css                                                     */
+/*                                                                          */
+/* +----------------------------------------------------------------------+ */
+/* | XML Final Project      http://xmlfinal.jasonantman.com               | */
+/* +----------------------------------------------------------------------+ */
+/* | Copyright (c) 2009 Jason Antman.                                     | */
+/* |                                                                      | */
+/* | This program is free software; you can redistribute it and/or modify | */
+/* | it under the terms of the GNU General Public License as published by | */
+/* | the Free Software Foundation; either version 3 of the License, or    | */
+/* | (at your option) any later version.                                  | */
+/* |                                                                      | */
+/* | This program is distributed in the hope that it will be useful,      | */
+/* | but WITHOUT ANY WARRANTY; without even the implied warranty of       | */
+/* | MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        | */
+/* | GNU General Public License for more details.                         | */
+/* |                                                                      | */
+/* | You should have received a copy of the GNU General Public License    | */
+/* | along with this program; if not, write to:                           | */
+/* |                                                                      | */
+/* | Free Software Foundation, Inc.                                       | */
+/* | 59 Temple Place - Suite 330                                          | */
+/* | Boston, MA 02111-1307, USA.                                          | */
+/* +----------------------------------------------------------------------+ */
+/* |Please use the above URL for bug reports and feature/support requests.| */
+/* +----------------------------------------------------------------------+ */
+/* | Authors: Jason Antman <jason@jasonantman.com>                        | */
+/* +----------------------------------------------------------------------+ */
+/* | $LastChangedRevision:: 8                                           $ | */
+/* | $HeadURL:: http://svn.jasonantman.com/xmlfinal/css/systemStatus.cs#$ | */
+/* +----------------------------------------------------------------------+ */
+
+.nagiosInfo
+{
+	text-align: center;
+}
+
+.description
+{
+	margin-left: 6%;
+}
+
+table.status {
+    border-width: 1px 1px 1px 1px;
+    border-spacing: 0px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    border-collapse: separate;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.status th {
+    border-width: 1px 1px 1px 1px;
+ padding: 2px 2px 2px 2px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+table.status td {
+    border-width: 1px 1px 1px 1px;
+ padding: 3px 3px 3px 3px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.nagiosStatus {
+    border-width: 1px 1px 1px 1px;
+    border-spacing: 0px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    border-collapse: separate;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+table.nagiosStatus th {
+    border-width: 1px 1px 1px 1px;
+ padding: 2px 2px 2px 2px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+table.nagiosStatus td {
+    text-align: center;
+    border-width: 1px 1px 1px 1px;
+ padding: 3px 3px 3px 3px;
+    border-style: solid solid solid solid;
+    border-color: black black black black;
+    background-color: white;
+    -moz-border-radius: 0px 0px 0px 0px;
+}
+
+.statusOK
+{
+	background-color: #00FF00 !important;
+	text-align: center;
+}
+
+.statusWARN
+{
+	background-color: yellow !important;
+	text-align: center;
+}
+
+.statusCRIT
+{
+	background-color: #FF0000 !important;
+	text-align: center;
+}
+
+.statusUNK
+{
+	background-color: #FF8000 !important;
+	text-align: center;
+}
+
+.hostRow
+{
+	border-top: 3px solid black !important;
+}
+
+.manualCheckLink
+{
+	text-align: center;
+	border-top: 2px soild black;
+	margin-top: 1em;
+	width = 100%;
+}
