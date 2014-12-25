@@ -1,6 +1,8 @@
 PHPsa
 =====
 
+[![Project Status: Abandoned - Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](http://www.repostatus.org/badges/0.1.0/abandoned.svg)](http://www.repostatus.org/#abandoned)
+
 This is really the skeleton of a defunct project from a few years ago. In
 retrospect, PHP was almost certainly the wrong language to use for this
 (compared to pretty much any modern web language, but especially because of
